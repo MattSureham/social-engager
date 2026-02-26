@@ -1,0 +1,48 @@
+# Platform Configurations
+
+# Instagram Configuration
+instagram:
+  # Login credentials (or use session)
+  username: ""
+  password: ""
+  
+  # Or use session file (more stable)
+  session_file: ""
+  
+  # Proxy (optional)
+  proxy: ""
+
+# Twitter (coming soon)
+twitter:
+  api_key: ""
+  api_secret: ""
+  access_token: ""
+  access_secret: ""
+
+# TikTok (coming soon)
+tiktok:
+  username: ""
+  password: ""
+
+# Engagement Settings
+engagement:
+  # Maximum actions per day
+  daily_limit: 20
+  
+  # Delay between actions (seconds)
+  min_delay: 30
+  max_delay: 120
+  
+  # Skip posts you've already engaged with
+  skip_engaged: true
+
+# LLM Settings (for comment generation)
+llm:
+  provider: "minimax"  # minimax, openai, anthropic
+  model: "MiniMax-M2.5"
+  temperature: 0.8
+
+# Logging
+logging:
+  level: "INFO"
+  file: "engagement.log"
